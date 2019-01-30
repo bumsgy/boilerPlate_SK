@@ -5,10 +5,8 @@
                 type="javax.sql.DataSource"
                 minIdle="100"
                 maxIdle="500"
-                username="devglo"
-                password="1q2w3e4r"
+                username="{{username}}"
+                password="{{password}}"
                 driverClassName="org.mariadb.jdbc.Driver"
-                url="jdbc:mysql://192.168.1.242:3306:db_devglossary"/>
+                url="jdbc:mysql://{{ip}}:{{port}}:{{servicename}}"/>
 </Context>
-
-        <!--driverClassName="net.sf.log4jdbc.mybatis.jdbcapi.DriverSpy"-->
